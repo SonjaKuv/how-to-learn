@@ -6,7 +6,6 @@ font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .header {
-height: 100vh;
 min-height: 600px;
 height: 756px;
 position:relative;
@@ -60,12 +59,8 @@ margin: auto 0;
 }
 
 .header__main-illustration {
-background-image: url(../images/header-image.png);
 height: 608px;
 width: 765px;
-background-repeat: no-repeat;
-background-position: bottom right;
-background-size: cover;
 position: absolute;
 right: 0;
 bottom: 0;
@@ -191,7 +186,7 @@ margin: 20px 0 auto 0;
 }
 
 .feynman {
-height: 890px;
+min-height: 890px;
 background-color: #f2f2f2;
 position: relative;
 z-index: 1;
