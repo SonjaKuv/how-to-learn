@@ -102,6 +102,8 @@ margin: 0;
 margin: 0;
 min-width: 784px;
 width: 80%;
+list-style: none;
+padding: 0;
 }
 
 .two-columns__paragraph {
