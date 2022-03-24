@@ -5,6 +5,7 @@ h4,
 h5,
 p,
 a,
+ul,
 li {
   margin: 0;
   padding: 0;
@@ -233,7 +234,7 @@ li {
 
 .kaufman {
   position: relative;
-  background-color: black;
+  background-color: #1f1f1f;
   z-index: -2;
   overflow: hidden;
 }
@@ -283,6 +284,7 @@ li {
   display: flex;
   background-color: #1f1f1f;
   min-height: 350px;
+  box-sizing: border-box;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -345,6 +347,7 @@ li {
   color: white;
   text-decoration: none;
 }
+
 
 .footer__social-icon {
   width: 16px;
