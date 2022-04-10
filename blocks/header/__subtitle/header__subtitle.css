@@ -2,9 +2,10 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  width: 388px;
+  max-width: 388px;
   line-height: 25px;
   font-size: 18px;
   text-decoration: none;
   z-index: 2;
+  color: #000;
 }
